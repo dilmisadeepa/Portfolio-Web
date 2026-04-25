@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+     <link rel="icon" href="images/D logo.jfif">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+<nav>
+    <h2>Contact Me</h2>
+    <ul>
+        <li><a href="index.html" >Home</a></li>
+        <li><a href="About.html" >About</a></li>
+        <li><a href="Services.html" >Services</a></li>
+        <li><a href="blog.html" >Blog</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+    </ul>
+</nav>
+
+<section class="contact-hero">
+    <p class="contact-label">📬 Get In Touch</p>
+    <h1>Contact Me</h1>
+    <p>Fill in the form below and I'll get back to you!</p>
+</section>
+
+<section class="contact-container">
+    <div class="contact-form-box">
+        <form id="contactform">
+            <div class="form-group">
+                <label>Your Name</label>
+                <input type="text" id="name" placeholder="Enter your name" required>
+            </div>
+            <div class="form-group">
+                <label>Your Email</label>
+                <input type="email" id="email" placeholder="Enter your email" required>
+            </div>
+            <div class="form-group">
+                <label>Subject</label>
+                <input type="text" id="subject" placeholder="Enter subject" required>
+            </div>
+            <div class="form-group">
+                <label>Message</label>
+                <textarea id="message" placeholder="Write your message..." rows="5" required></textarea>
+            </div>
+            <button type="submit">Send Message <i class="fas fa-paper-plane"></i></button>
+        </form>
+        <p id="SuccessMsg"></p>
+        <p id="ErrorMsg"></p>
+    </div>
+
+    <div class="contact-info-box">
+        <h3>Find Me On</h3>
+        <div class="social-links">
+            <a href="https://facebook.com" target="_blank">
+                <i class="fab fa-facebook-f"></i> Facebook
+            </a>
+            <a href="https://instagram.com" target="_blank">
+                <i class="fab fa-instagram"></i> Instagram
+            </a>
+            <a href="https://linkedin.com" target="_blank">
+                <i class="fab fa-linkedin-in"></i> LinkedIn
+            </a>
+            <a href="https://github.com" target="_blank">
+                <i class="fab fa-github"></i> GitHub
+            </a>
+            <a href="https://medium.com/@dilmisadeepa81" target="_blank">
+                <i class="fab fa-medium"></i> Medium
+            </a>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2025 Dilmi. All rights reserved.</p>
+</footer>
+
+
+
+<script src="script.js"></script>
+<script src="contact.js"></script>
+</body>
+</html>
